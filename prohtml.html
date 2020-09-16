@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+<title>Project</title>
+    
+<link rel="stylesheet" href="cssproject.css">  
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+
+
+</head>
+<body>
+    <h1 class="one">Forming a sentence by combining the words:</h1>
+    
+<center>
+    
+<select class="select" onchange="selection()">
+    
+<option value="none" selected>---Select Language---</option>
+    
+<option  value="english"  id="english">English</option>
+    
+<option value="hindi"  id="hindi">Hindi</option>
+    
+</select><br><br>
+    
+<p id="para1"></p>
+    
+<p id="para2"></p>
+    
+<p id="disp1"></p>
+    
+<p id="disp2"></p>
+    
+<p id="disp3"></p>
+    
+<button id="reform"  style="visibility: hidden;" onclick="Reform()">Re-form the sentence</button><br>
+    
+<button id="check" style="visibility: hidden;" onclick="check()">Check the correctness of this sentence</button>
+    
+<p id="dispcheck"></p><br>
+    
+<button id="getcrt" style="visibility: hidden;" onclick="toggle()">Get correct sentence</button>
+    
+<p id="getans"></p>
+    
+</center>
+    
+</section>
+    
+<script src="pro.js">
+</script>
+
+</body>
+
+</html> 
